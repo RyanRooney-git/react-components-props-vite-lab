@@ -3,7 +3,7 @@ function About({image}) {
 
     return (
     <aside>
-        <img src = {image ? image: defaultImage}/>
+        <img src = {image ? image: defaultImage} alt="blog logo"/>
     </aside>
     )
 }
