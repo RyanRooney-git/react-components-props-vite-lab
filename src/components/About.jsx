@@ -1,7 +1,9 @@
 function About({image}) {
+    const defaultImage = "images/demo.png"
+
     return (
     <aside>
-        <img src = {image}/>
+        <img src = {image ? image: defaultImage}/>
     </aside>
     )
 }
