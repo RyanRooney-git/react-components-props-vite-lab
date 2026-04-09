@@ -1,4 +1,6 @@
-function About({image = "https://via.placeholder.com/215", aboutText = "A blog created by me."}) {
+function About({
+    image = "https://via.placeholder.com/215", 
+    aboutText = "This is the blog about text."}) {
     return (
     <aside>
         <img src = {image} alt="blog logo"/>
